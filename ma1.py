@@ -4,8 +4,8 @@ import random
 st.title("🎲 숫자 추첨기")
 
 # 사용자 입력
-a = st.number_input("최소 숫자(a)를 입력하세요", value=1)
-b = st.number_input("최대 숫자(b)를 입력하세요", value=100)
+a = st.number_input("최소 숫자를 입력하세요", value=1)
+b = st.number_input("최대 숫자를 입력하세요", value=100)
 num_count = st.number_input("몇 개의 숫자를 뽑을까요?", min_value=1, value=1, step=1)
 
 # 중복 여부 선택
